@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<!--
+Name: Melanie Carroll
+Date created: 8/31/20
+Most recent revision: 8/31/20
+-->
+
+<html lang="en">
+<head>
+<p>Contact Us</p>
+<title>Crunch Calzones</title>
+<hr/>
+</head>
+
+<body>
+<h1 style="text-align:center;">Crunch Calzones</h1>
+<hr/>
+
+<nav> <!-- Home Menu Contact US -->
+    <p><a href="restaurant-home.html">Home</a>
+
+    <a href="restaurant-menu.html">Menu</a>
+
+    <a href="restaurant-contact-us.html">Contact Us</a></p>
+  
+</nav>
+<hr/>
+
+<br />
+<form action="submit.html" method="POST">
+<label for="fullname">Name:</label>
+<input type="text" id="fullname" name="fullname"><br />
+<br />
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br />
+<br />
+<label for="phone">Phone:</label>
+<input type="text id="phone" name="phone"><br />
+<br />
+
+<!--Drop-down element-->
+<label for="reason">Reason for Inquiry:</label>
+<select id="reason" name="reason">
+<option value="default" selected>Catering</option>
+<option value="party">Private Party</option>
+<option value="feedback">Feedback</option>
+<option value="other">Other</option>
+</select>
+<br />
+<br />
+<label for="info">Additional Information</label>
+<textarea id="info"></textarea><br /> 
+<br>
+<!--radio buttons-->
+
+Have you been to the restaurant?
+<input type="radio" name="attendance" value="no" checked/>No
+<input type="radio" name="attendance" value="yes" />Yes
+<br />
+<br />
+<!--Checkbox-->
+
+Best days to contact you:
+<input type="checkbox" name="days" value="Monday"/>M
+<input type="checkbox" name="days" value="Tuesday"/>T
+<input type="checkbox" name="days" value="Wednesday"/>W
+<input type="checkbox" name="days" value="Thursday"/>Th
+<input type="checkbox" name="days" value="Friday"/>F
+</form>
+<br />
+
+<!--Send button-->
+<input type="submit" name="submit" value="Send Request">
+
+<hr/>
+<footer>
+<p style="text-align:center;">8990 St Mary's Way, Annapolis, Maryland 21411</p>
+<p style="text-align:center;">(410)675-2848</p>
+</footer>
+<hr/>
+
+</body>
+
+</html>
